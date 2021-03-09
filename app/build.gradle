@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
+    id 'com.google.gms.google-services'
 }
 
 android {
@@ -13,7 +14,6 @@ android {
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
-        multiDexEnable true
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -52,7 +52,6 @@ dependencies {
     }
     //noinspection GradleCompatible
     implementation "com.android.support:support-fragment:26.1.0"
-
     implementation "andoidx.multidex:multidex:2.0.1"
-
+    implementation 'com.google.firebase:firebase-analytics'
 }
