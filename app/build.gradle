@@ -53,4 +53,7 @@ dependencies {
     implementation "com.android.support:support-fragment:26.1.0"
     implementation platform('com.google.firebase:firebase-bom:26.6.0')
     implementation 'com.google.firebase:firebase-analytics'
+
+    implementation platform('com.google.firebase:firebase-bom:26.5.0')
+    implementation 'com.google.firebase:firebase-auth-ktx'
 }
